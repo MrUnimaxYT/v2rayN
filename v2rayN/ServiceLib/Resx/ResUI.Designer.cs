@@ -653,6 +653,12 @@ namespace ServiceLib.Resx {
                 return ResourceManager.GetString("LvUserAgent", resourceCulture);
             }
         }
+
+        public static string LvHeaders {
+            get {
+                return ResourceManager.GetString("LvHeaders", resourceCulture);
+            }
+        }
         
         /// <summary>
         ///   查找类似 WebDAV Check 的本地化字符串。
